@@ -1,3 +1,10 @@
+name: "test issue copy"
+on:
+    issue_comment:
+        types: [created]
+ 
+ jobs:
+    copy:
 uses: soichisumi/issue-copy-action@v0.2.0
 with:
   keyword: "/copy"
