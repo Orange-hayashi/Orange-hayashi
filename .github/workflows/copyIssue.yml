@@ -6,7 +6,7 @@ jobs:
     copy:
             runs-on: ubuntu-latest
             steps:
-             - uses: actions/checkout@v1
+
              - uses: soichisumi/issue-copy-action@v0.2.0
                with:
                 keyword: "/copy"
