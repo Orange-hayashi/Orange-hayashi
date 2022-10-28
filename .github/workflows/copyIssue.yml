@@ -8,8 +8,9 @@ jobs:
             steps:
               - uses: actions/checkout@v2
               - uses: soichisumi/issue-copy-action@v0.2.0
-               with:
-                keyword: "/copy"
-                targetRepository: Orange-hayashi/test1
-                githubToken: ${{ secrets.GITHUB_TOKEN }}
-                contentOfNewIssue: 'prefix of newly created issue'
+                with:
+                 keyword: "/copy"
+                 targetRepository: Orange-hayashi/test1
+                 githubToken: ${{ secrets.GITHUB_TOKEN }}
+                 contentOfNewIssue: 'prefix of newly created issue'
+ 
