@@ -10,7 +10,7 @@ jobs:
               - uses: soichisumi/issue-copy-action@v0.2.0
                 with:
                  keyword: "/copy"
-                 targetRepository: soichisumi/issue-copy-action
+                 targetRepository: Orange-hayashi/test1
                  githubToken: ${{ secrets.GITHUB_TOKEN }}
                  contentOfNewIssue: 'prefix of newly created issue'
  
