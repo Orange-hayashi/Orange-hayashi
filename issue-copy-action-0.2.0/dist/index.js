@@ -824,7 +824,7 @@ async function run() {
       return;
     }
 
-    const created = await lib.createNewIssue(token, owner, repoName, issue.data.title, contentOfNewIssue, ['Orange-hayashi'], [], issue.data.html_url);
+    const created = await lib.createNewIssue(token, owner, repoName, issue.data.title, contentOfNewIssue, [], [], issue.data.html_url);
 	
 /**
     const created = await lib.createNewIssue(token, owner, repoName, issue.data.title, contentOfNewIssue, ['soichisumi'], [], issue.data.html_url);
