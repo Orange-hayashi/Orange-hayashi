@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v1
-            - uses: ./issue-copy-action-0.2.0
+            - uses: ./tools/issue-copy-action-0.2.0
               with:
                 keyword: "/copy"
                 targetRepository: Orange-hayashi/test1
